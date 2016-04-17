@@ -10,6 +10,10 @@
 			<result name="success">/success.jsp</result>
 			<result name="failure">/failure.jsp</result>
 		</action>
+		<action name="productAction" class="com.carl.umlclass.web.ProductAction">
+			<result name="success">/success.jsp</result>
+			<result name="failure">/failure.jsp</result>
+		</action>
 	</package>
 
 </struts>
